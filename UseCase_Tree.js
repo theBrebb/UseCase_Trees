@@ -1,135 +1,150 @@
+
+
+// const treeData = {
+//   "name": "PRESENT",
+//   "value": 10,
+//   "type": "black",
+//   "level": "black",
+//   "children": [
+//     {
+//       "name": "UC Maintenance",
+//       "value": 10,
+//       "type": "black",
+//       "level": "gray",
+//       "children": [
+//         {
+//           "name": "Rolltreppe (Flughafen Wien)",
+//           "value": 7.5,
+//           "type": "red",
+//           "level": "blue",
+//           "comment": 'Here is a comment Id like to add' 
+//         },
+//         {
+//           "name": "Produktionsanlagen & - qualität (Anton A.)",
+//           "value": 7.5,
+//           "type": "red",
+//           "level": "purple",
+//           "comment": 'Here is a comment Id like to add' 
+//         },
+//         {
+//           "name": "langlebige Anlagen, Wasserkraft 30-40 Jahre (Andreas D.)",
+//           "value": 7.5,
+//           "type": "red",
+//           "level": "purple",
+//           "comment": 'Here is a comment Id like to add' 
+//         },
+//         {
+//           "name": "kurzlebige Anlagen, <10 Jahre (Andreas D.)",
+//           "value": 7.5,
+//           "type": "red",
+//           "level": "purple",
+//           "comment": 'Here is a comment Id like to add' 
+//         },
+//         {
+//           "name": "Autonomie Nutzfahrzeuge (ARTI)",
+//           "value": 7.5,
+//           "type": "red",
+//           "level": "purple",
+//           "comment": 'Here is a comment Id like to add' 
+//         },
+//         {
+//           "name": "Prozesstechnik / Einkaufsplanung (Benjamin B.)",
+//           "value": 7.5,
+//           "type": "red",
+//           "level": "purple",
+//           "comment": 'Here is a comment Id like to add' 
+//         }
+//       ]
+//     },
+//     {
+//       "name": "UC Energie",
+//       "value": 10,
+//       "type": "black",
+//       "level": "gray",
+//       "children": [
+//           {
+//               "name": "Energieerzeugung",
+//               "value": 5, 
+//               "type": "black",
+//               "level": "gray",
+//               "children": [
+//                 {
+//                   "name": "Stromerzeugungsprognose (Flughafen Wien)",
+//                   "value": 7.5, 
+//                   "type": "green",
+//                   "level": "blue",
+//                   "comment": 'Here is a comment Id like to add' 
+//                 }
+//               ]
+//       },
+//       {
+//         "name": "Energieverbrauch",
+//         "value": 5, 
+//         "type": "black",
+//         "level": "gray",
+//         "children": [
+//           {
+//             "name": "Energieeinsparung Heiz- u. Kühlsysteme (Roman B.)",
+//             "value": 7.5, 
+//             "type": "red",
+//             "level": "blue",
+//             "comment": 'Here is a comment Id like to add' 
+//           },
+//           {
+//             "name": "Raumklima AirQ(A0Dev)",
+//             "value": 7.5, 
+//             "type": "green",
+//             "level": "blue",
+//             "comment": 'Here is a comment Id like to add' 
+//           },
+//         ]
+// }
+//       ]
+//     },
+//     {
+//       "name": "UC Health",
+//       "value": 10,
+//       "type": "black",
+//       "level": "gray",
+//       "children": [
+//         {
+//           "name": "Patientenfluss / Auslastung (KPC)",
+//           "value": 7.5,
+//           "type": "orange",
+//           "level": "yellow",
+//           "comment": 'Here is a comment Id like to add' 
+//         },
+//         {
+//           "name": "Personenampel (Solgenium)",
+//           "value": 7.5,
+//           "type": "orange",
+//           "level": "yellow",
+//           "comment": 'Here is a comment Id like to add' 
+//         },
+//       ]
+//     },
+//     {
+//       "name": "UC Robotic",
+//       "value": 10,
+//       "type": "black",
+//       "level": "gray",
+//       "children": [
+//         {
+//           "name": "Chirurgieroboter (BHS)",
+//           "value": 7.5,
+//           "type": "orange",
+//           "level": "yellow",
+//           "comment": 'Here is a comment Id like to add' 
+//         }
+//       ]
+//     }
+//   ] 
+// }; 
+// const jsonData = JSON.stringify(treeData, null, 2);
+
+
+// save as JSON ////////////////////////////////
 // const fs = require('fs');
-
-const treeData = {
-  "name": "PRESENT",
-  "value": 10,
-  "type": "black",
-  "level": "black",
-  "children": [
-    {
-      "name": "UC Maintenance",
-      "value": 10,
-      "type": "black",
-      "level": "gray",
-      "children": [
-        {
-          "name": "Rolltreppe (Flughafen Wien)",
-          "value": 7.5,
-          "type": "red",
-          "level": "blue"
-        },
-        {
-          "name": "Produktionsanlagen & - qualität (Anton A.)",
-          "value": 7.5,
-          "type": "red",
-          "level": "purple"
-        },
-        {
-          "name": "langlebige Anlagen, Wasserkraft 30-40 Jahre (Andreas D.)",
-          "value": 7.5,
-          "type": "red",
-          "level": "purple"
-        },
-        {
-          "name": "kurzlebige Anlagen, <10 Jahre (Andreas D.)",
-          "value": 7.5,
-          "type": "red",
-          "level": "purple"
-        },
-        {
-          "name": "Autonomie Nutzfahrzeuge (ARTI)",
-          "value": 7.5,
-          "type": "red",
-          "level": "purple"
-        },
-        {
-          "name": "Prozesstechnik / Einkaufsplanung (Benjamin B.)",
-          "value": 7.5,
-          "type": "red",
-          "level": "purple"
-        }
-      ]
-    },
-    {
-      "name": "UC Energie",
-      "value": 10,
-      "type": "black",
-      "level": "gray",
-      "children": [
-          {
-              "name": "Energieerzeugung",
-              "value": 5, 
-              "type": "black",
-              "level": "gray",
-              "children": [
-                {
-                  "name": "Stromerzeugungsprognose (Flughafen Wien)",
-                  "value": 7.5, 
-                  "type": "green",
-                  "level": "blue"
-                }
-              ]
-      },
-      {
-        "name": "Energieverbrauch",
-        "value": 5, 
-        "type": "black",
-        "level": "gray",
-        "children": [
-          {
-            "name": "Energieeinsparung Heiz- u. Kühlsysteme (Roman B.)",
-            "value": 7.5, 
-            "type": "red",
-            "level": "blue",
-          },
-          {
-            "name": "Raumklima AirQ(A0Dev)",
-            "value": 7.5, 
-            "type": "green",
-            "level": "blue",
-          },
-        ]
-}
-      ]
-    },
-    {
-      "name": "UC Health",
-      "value": 10,
-      "type": "black",
-      "level": "gray",
-      "children": [
-        {
-          "name": "Patientenfluss / Auslastung (KPC)",
-          "value": 7.5,
-          "type": "orange",
-          "level": "yellow"
-        },
-        {
-          "name": "Personenampel (Solgenium)",
-          "value": 7.5,
-          "type": "orange",
-          "level": "yellow"
-        },
-      ]
-    },
-    {
-      "name": "UC Robotic",
-      "value": 10,
-      "type": "black",
-      "level": "gray",
-      "children": [
-        {
-          "name": "Chirurgieroboter (BHS)",
-          "value": 7.5,
-          "type": "orange",
-          "level": "yellow"
-        }
-      ]
-    }
-  ] 
-}; 
-const jsonData = JSON.stringify(treeData, null, 2);
-
 // try {
 //   fs.writeFileSync('data.json', jsonData);
 //   console.log('JSON data has been written to data.json');
@@ -137,24 +152,22 @@ const jsonData = JSON.stringify(treeData, null, 2);
 //   console.error('Error writing JSON file:', err);
 // }
 
-//console.log(treeData)
+let url = 'https://raw.githubusercontent.com/theBrebb/UseCase_Trees/main/data.json'
+
+d3.json(url).then(treeData => {
+  console.log(treeData)
+})
+
   
 const margin = {top: 50, right: 350, bottom: 50, left: 200},
       width  = 1000 - margin.left - margin.right,
       height = 800 - margin.top - margin.bottom;
 
-// declares a tree layout and assigns the size
 const treemap = d3.tree().size([height, width]);
 
-//  assigns the data to a hierarchy using parent-child relationships
 let nodes = d3.hierarchy(treeData, d => d.children);
-
-// maps the node data to the tree layout
 nodes = treemap(nodes);
 
-// append the svg object to the body of the page
-// appends a 'group' element to 'svg'
-// moves the 'group' element to the top left margin
 const svg = d3.select("body").append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom),
@@ -162,7 +175,6 @@ const svg = d3.select("body").append("svg")
         .attr("transform",
             "translate(" + margin.left + "," + margin.top + ")");
 
-// adds the links between the nodes
 const link = g.selectAll(".link")
     .data( nodes.descendants().slice(1))
     .enter().append("path")

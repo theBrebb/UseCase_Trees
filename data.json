@@ -13,38 +13,44 @@
         {
           "name": "Rolltreppe (Flughafen Wien)",
           "value": 7.5,
-          "type": "green",
-          "level": "blue"
+          "type": "red",
+          "level": "blue",
+          "comment": "Here is a comment Id like to add"
         },
         {
           "name": "Produktionsanlagen & - qualität (Anton A.)",
           "value": 7.5,
-          "type": "green",
-          "level": "purple"
+          "type": "red",
+          "level": "purple",
+          "comment": "Here is a comment Id like to add"
         },
         {
           "name": "langlebige Anlagen, Wasserkraft 30-40 Jahre (Andreas D.)",
           "value": 7.5,
-          "type": "green",
-          "level": "purple"
+          "type": "red",
+          "level": "purple",
+          "comment": "Here is a comment Id like to add"
         },
         {
           "name": "kurzlebige Anlagen, <10 Jahre (Andreas D.)",
           "value": 7.5,
-          "type": "green",
-          "level": "purple"
+          "type": "red",
+          "level": "purple",
+          "comment": "Here is a comment Id like to add"
         },
         {
           "name": "Autonomie Nutzfahrzeuge (ARTI)",
           "value": 7.5,
-          "type": "green",
-          "level": "purple"
+          "type": "red",
+          "level": "purple",
+          "comment": "Here is a comment Id like to add"
         },
         {
           "name": "Prozesstechnik / Einkaufsplanung (Benjamin B.)",
           "value": 7.5,
-          "type": "green",
-          "level": "purple"
+          "type": "red",
+          "level": "purple",
+          "comment": "Here is a comment Id like to add"
         }
       ]
     },
@@ -64,7 +70,8 @@
               "name": "Stromerzeugungsprognose (Flughafen Wien)",
               "value": 7.5,
               "type": "green",
-              "level": "blue"
+              "level": "blue",
+              "comment": "Here is a comment Id like to add"
             }
           ]
         },
@@ -77,20 +84,16 @@
             {
               "name": "Energieeinsparung Heiz- u. Kühlsysteme (Roman B.)",
               "value": 7.5,
-              "type": "green",
-              "level": "blue"
-            },
-            {
-              "name": "Raumklima (A0Dev)",
-              "value": 7.5,
-              "type": "green",
-              "level": "blue"
+              "type": "red",
+              "level": "blue",
+              "comment": "Here is a comment Id like to add"
             },
             {
               "name": "Raumklima AirQ(A0Dev)",
               "value": 7.5,
               "type": "green",
-              "level": "blue"
+              "level": "blue",
+              "comment": "Here is a comment Id like to add"
             }
           ]
         }
@@ -105,14 +108,16 @@
         {
           "name": "Patientenfluss / Auslastung (KPC)",
           "value": 7.5,
-          "type": "green",
-          "level": "orange"
+          "type": "orange",
+          "level": "yellow",
+          "comment": "Here is a comment Id like to add"
         },
         {
           "name": "Personenampel (Solgenium)",
           "value": 7.5,
-          "type": "green",
-          "level": "orange"
+          "type": "orange",
+          "level": "yellow",
+          "comment": "Here is a comment Id like to add"
         }
       ]
     },
@@ -125,8 +130,9 @@
         {
           "name": "Chirurgieroboter (BHS)",
           "value": 7.5,
-          "type": "green",
-          "level": "orange"
+          "type": "orange",
+          "level": "yellow",
+          "comment": "Here is a comment Id like to add"
         }
       ]
     }
