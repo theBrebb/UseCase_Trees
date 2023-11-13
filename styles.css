@@ -1,0 +1,24 @@
+/* styles.css */
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.node circle {
+  stroke-width: 5px;
+}
+
+.node text { font: 11px sans-serif; }
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 0.4em;
+}
+
+.text{
+  font-weight: bold;
+}

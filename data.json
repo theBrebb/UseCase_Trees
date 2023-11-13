@@ -1,0 +1,134 @@
+{
+  "name": "PRESENT",
+  "value": 10,
+  "type": "black",
+  "level": "black",
+  "children": [
+    {
+      "name": "UC Maintenance",
+      "value": 10,
+      "type": "black",
+      "level": "gray",
+      "children": [
+        {
+          "name": "Rolltreppe (Flughafen Wien)",
+          "value": 7.5,
+          "type": "green",
+          "level": "blue"
+        },
+        {
+          "name": "Produktionsanlagen & - qualität (Anton A.)",
+          "value": 7.5,
+          "type": "green",
+          "level": "purple"
+        },
+        {
+          "name": "langlebige Anlagen, Wasserkraft 30-40 Jahre (Andreas D.)",
+          "value": 7.5,
+          "type": "green",
+          "level": "purple"
+        },
+        {
+          "name": "kurzlebige Anlagen, <10 Jahre (Andreas D.)",
+          "value": 7.5,
+          "type": "green",
+          "level": "purple"
+        },
+        {
+          "name": "Autonomie Nutzfahrzeuge (ARTI)",
+          "value": 7.5,
+          "type": "green",
+          "level": "purple"
+        },
+        {
+          "name": "Prozesstechnik / Einkaufsplanung (Benjamin B.)",
+          "value": 7.5,
+          "type": "green",
+          "level": "purple"
+        }
+      ]
+    },
+    {
+      "name": "UC Energie",
+      "value": 10,
+      "type": "black",
+      "level": "gray",
+      "children": [
+        {
+          "name": "Energieerzeugung",
+          "value": 5,
+          "type": "black",
+          "level": "gray",
+          "children": [
+            {
+              "name": "Stromerzeugungsprognose (Flughafen Wien)",
+              "value": 7.5,
+              "type": "green",
+              "level": "blue"
+            }
+          ]
+        },
+        {
+          "name": "Energieverbrauch",
+          "value": 5,
+          "type": "black",
+          "level": "gray",
+          "children": [
+            {
+              "name": "Energieeinsparung Heiz- u. Kühlsysteme (Roman B.)",
+              "value": 7.5,
+              "type": "green",
+              "level": "blue"
+            },
+            {
+              "name": "Raumklima (A0Dev)",
+              "value": 7.5,
+              "type": "green",
+              "level": "blue"
+            },
+            {
+              "name": "Raumklima AirQ(A0Dev)",
+              "value": 7.5,
+              "type": "green",
+              "level": "blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UC Health",
+      "value": 10,
+      "type": "black",
+      "level": "gray",
+      "children": [
+        {
+          "name": "Patientenfluss / Auslastung (KPC)",
+          "value": 7.5,
+          "type": "green",
+          "level": "orange"
+        },
+        {
+          "name": "Personenampel (Solgenium)",
+          "value": 7.5,
+          "type": "green",
+          "level": "orange"
+        }
+      ]
+    },
+    {
+      "name": "UC Robotic",
+      "value": 10,
+      "type": "black",
+      "level": "gray",
+      "children": [
+        {
+          "name": "Chirurgieroboter (BHS)",
+          "value": 7.5,
+          "type": "green",
+          "level": "orange"
+        }
+      ]
+    }
+  ]
+}
