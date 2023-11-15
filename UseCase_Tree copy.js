@@ -7,147 +7,151 @@ const data = {
   "level": "black",
   "children": [
     {
-      "name": "Production",
+      "name": "UC Maintenance",
       "value": 10,
       "type": "black",
       "level": "gray",
       "children": [
-       
+        {
+          "name": "Rolltreppe (Flughafen Wien)",
+          "value": 7.5,
+          "type": "Orange",
+          "level": "blue",
+          "comment": 'Here is a comment Id like to add' 
+        },
         {
           "name": "Sortiermaschinen (Messfeld / Binder)",
           "value": 7.5,
           "type": "orange",
           "level": "purple",
-          "comment": '<b> Sortiermaschinen (Messfeld / Binder) </b> <br>' +
-           '<li> <b> 18.10. </b> Erstes Meeting mit Binder. Vermutlich sehr viele Daten, keine klassische Zeitreihe.' +
-           '<li> <b> 14.11. </b>    GG bittet um Beispieldatensatz </li> ' 
+          "comment": 'Here is a comment Id like to add' 
         },
         {
-        "name": " TBD (Messfeld / Fresenius)",
+        "name": " XXX (Messfeld / Fresenius)",
         "value": 7.5,
         "type": "orange",
         "level": "purple",
-        "comment": '<b> TBD (Messfeld / Fresenius) </b>' +
-        '<li> <b> 3.10.</b> Messfeld will Termin mit Fresenius ausmachen. </li>' 
+        "comment": 'Here is a comment Id like to add' 
       },
         {
-          "name": 'Produktionsanlagen & - qualität (Anton A., RHI)',
+          "name": "Produktionsanlagen & - qualität (Anton A.)",
           "value": 7.5,
           "type": "red",
           "level": "purple",
-          "comment": '<b>Produktionsanlagen & - qualität </b> (Anton A., RHI)'+
-          '<li> Ende Nov. Termin (Anton A. + RHI). </li>' 
+          "comment": 'Here is a comment Id like to add' 
         },
         {
           "name": "langlebige Anlagen, Wasserkraft 30-40 Jahre (Andreas D.)",
           "value": 7.5,
           "type": "red",
           "level": "purple",
-          "comment": 'Wurde nur einmal erwähnt, dann nie wieder besprochen.' 
+          "comment": 'Here is a comment Id like to add' 
         },
         {
-          "name": "Pumpen/Turbinen/Filtersysteme  (Anton A., Andritz)",
+          "name": "kurzlebige Anlagen, <10 Jahre (Andreas D.)",
           "value": 7.5,
           "type": "red",
           "level": "purple",
-          "comment": 'kurzlebige Anlagen, <10 Jahre' 
+          "comment": 'Here is a comment Id like to add' 
         },
-     
         {
           "name": "Autonomie Nutzfahrzeuge (ARTI)",
           "value": 7.5,
           "type": "red",
           "level": "purple",
-          "comment": 'Wurde nur einmal erwähnt, dann nie wieder besprochen.' 
+          "comment": 'Here is a comment Id like to add' 
         },
         {
           "name": "Prozesstechnik / Einkaufsplanung (Benjamin B.)",
           "value": 7.5,
           "type": "red",
           "level": "purple",
-          "comment": 'Wurde nur einmal erwähnt, dann nie wieder besprochen.' 
+          "comment": 'Here is a comment Id like to add' 
         }
       ]
     },
     {
-      "name": "Buildings",
+      "name": "UC Energie",
       "value": 10,
       "type": "black",
       "level": "gray",
       "children": [
-         
-            {
-              "name": "Stromerzeugungsprognose (Open Data / TUG Bachelorarbeit)",
-              "value": 7.5, 
-              "type": "green",
-              "level": "blue",
-              "comment": '- Ursprünglich von Flughafen Wien vorgeschlagen, Daten allerdings nicht verfügbar. <br> - Bachelorarbeit @ TUG mit open access data. ' 
-            },
-            {
-              "name": "Rolltreppe (Flughafen Wien)",
-              "value": 7.5,
-              "type": "Orange",
-              "level": "blue",
-              "comment": '- Daten wurden von Flughafen Wien zugesichert. <br> - Next: Wann kommen welche Daten? ' 
-            },
-              
-   
-     
+          {
+              "name": "Energieerzeugung",
+              "value": 5, 
+              "type": "black",
+              "level": "gray",
+              "children": [
+                {
+                  "name": "Stromerzeugungsprognose (Open Data / TUG Bachelorarbeit)",
+                  "value": 7.5, 
+                  "type": "green",
+                  "level": "blue",
+                  "comment": 'Here is a comment Id like to add' 
+                }
+              ]
+      },
+      {
+        "name": "Energieverbrauch",
+        "value": 5, 
+        "type": "black",
+        "level": "gray",
+        "children": [
           {
             "name": "Energieeinsparung Heiz- u. Kühlsysteme (Roman B.)",
             "value": 7.5, 
             "type": "red",
             "level": "blue",
-            "comment": 'Wurde nur einmal erwähnt, dann nie wieder besprochen.' 
+            "comment": 'Here is a comment Id like to add' 
           },
           {
             "name": "Raumklima AirQ(A0Dev)",
             "value": 7.5, 
             "type": "green",
             "level": "blue",
-            "comment": '- 3 Geräte in Wien, Graz und Innsbruck vorhanden, Daten werden aufgenommen.<br>- Daten TUG sind Teil einer Masterarbeit. ' 
-          },
-          {
-            "name": "Luftzirkulationsgerät  (Anton A.)",
-            "value": 7.5,
-            "type": "red",
-            "level": "purple",
-            "comment": 'Anfrage ausgeschickt. ' 
+            "comment": 'Here is a comment Id like to add' 
           },
         ]
-},
-     
-
+}
+      ]
+    },
     {
-      "name": "Health",
+      "name": "UC Health",
       "value": 10,
       "type": "black",
       "level": "gray",
       "children": [
         {
-          "name": "Patientenfluss / Resourcenampel (KPC & Solgenium)",
+          "name": "Patientenfluss / Auslastung (KPC)",
           "value": 7.5,
           "type": "orange",
           "level": "yellow",
-          "comment": '- Beispieldaten  verfügbar, eventuell synthetisch weiter ausbauen. <br> - Masterarbeit auf den Daten @TUG. <br> - 14.11. Zusammenlegung von Patientenfluss & Personenampel.  ' 
+          "comment": 'Here is a comment Id like to add' 
         },
+        {
+          "name": "Personenampel (Solgenium)",
+          "value": 7.5,
+          "type": "orange",
+          "level": "yellow",
+          "comment": 'Here is a comment Id like to add' 
+        },
+      ]
+    },
+    {
+      "name": "UC Robotic",
+      "value": 10,
+      "type": "black",
+      "level": "gray",
+      "children": [
         {
           "name": "Chirurgieroboter (BHS)",
           "value": 7.5,
           "type": "orange",
           "level": "yellow",
-          "comment": 'unstrukturierte log files available, Strukturierung derzeit bei BHS in Arbeit. <br> - logfile STrukturierung komplex, Konsortium wartet. ' 
+          "comment": 'Here is a comment Id like to add' 
         }
-        // {
-        //   "name": "Personenampel (Solgenium)",
-        //   "value": 7.5,
-        //   "type": "orange",
-        //   "level": "yellow",
-        //   "comment": 'Daten prinzipiell verfügbar.' 
-        // },
       ]
-    },
-   
+    }
   ] 
 }; 
 const jsonData = JSON.stringify(data, null, 2);
@@ -168,7 +172,7 @@ const jsonData = JSON.stringify(data, null, 2);
 //    //console.log("here's the data: ", data)
 
   
-const margin = {top: 0, right: 450, bottom: 50, left: 50},
+const margin = {top: 0, right: 350, bottom: 50, left: 100},
       width  = 1000 - margin.left - margin.right,
       height = 800 - margin.top - margin.bottom;
 
@@ -177,7 +181,7 @@ const treemap = d3.tree().size([height, width]);
 let nodes = d3.hierarchy(data, d => d.children);
 nodes = treemap(nodes);
 
-const svg = d3.select("#useCaseTree").append("svg")
+const svg = d3.select("@useCaseTree").append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom),
      
@@ -204,23 +208,8 @@ const node = g.selectAll(".node")
     .enter().append("g")
     .attr("class", d => "node" + (d.children ? " node--internal" : " node--leaf"))
     .attr("transform", d => "translate(" + d.y + "," + d.x + ")")
-    .on('mouseover', function (d, i) {
-        // Append a tooltip with the comment text
-        const tooltip = d3.select("body").append("div")
-            .attr("class", "tooltip")
-            .style("opacity", 0);
-
-        tooltip.transition()
-            .duration(200)
-            .style("opacity", .9);
-
-        tooltip.html(d.data.comment)
-            .style("left", (d3.event.pageX) + "px")
-            .style("top", (d3.event.pageY - 28) + "px");
-    })
-    .on('mouseout', function (d, i) {
-       
-        d3.select(".tooltip").remove();
+    .on('mouseover', function (d,i){
+      
     });
 
 // adds the circle to the node
@@ -266,11 +255,11 @@ node.append("circle")
 node.append("text")
   .attr("dy", "-1.2em") 
   .attr("dx", "-4.0em") 
-  .attr("x", d => d.children ? (d.data.value + 10) : + 80)
-  .attr("y", d => d.children ? (d.data.value - 15) : 20)
+  .attr("x", d => d.children ? (d.data.value - 00) : 60)
+  .attr("y", d => d.children ? (d.data.value - 12) : 20)
   //.style("text-anchor", d => d.children ? "start" : "end") // Updated text-anchor for main text element
-  .text(d => d.data.name) 
-  .call(wrapText, 100); // 100 is the desired width for the text before wrapping
+  .text(d => d.data.name) // Set initial text for main text element
+  //.call(wrapText, 35); // 100 is the desired width for the text before wrapping
 
 
 
