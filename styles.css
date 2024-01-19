@@ -31,13 +31,14 @@ body {
 }
 #legend {
   position: absolute;
-  top: 10px; /* adjust this value to place the legend at the desired vertical position */
-  left: 10px; /* adjust this value to place the legend at the desired horizontal position */
-  z-index: 2; /* ensure the legend is on top */
+  top: 10px; 
+  left: 10px;
+  z-index: 2;
 }
-.node circle {
-  stroke-width: 3px;
+.node rect {
+  stroke-width: 2.5px;
   stroke-opacity: 0.8;
+  fill-opacity: 0.8;
 }
 .tooltip {
   position: absolute;
@@ -61,7 +62,7 @@ body {
   fill: none;
   stroke: #ccc;
   stroke-width: 1em;
-  stroke-opacity: 0.6;
+  stroke-opacity: 0.5;
 }
 
 .text{
