@@ -77,16 +77,15 @@ const data = {
               "value": 7.5,
               "type": "green",
               "level": "blue",
-              "comment": '- 3 Geräte in Wien, Graz und Innsbruck vorhanden, Daten werden aufgenommen.<br>- Daten TUG sind Teil einer Masterarbeit. '
+              "comment": '- 3 Geräte in Wien, Graz und Innsbruck vorhanden, Daten werden aufgenommen.<br>- Daten TUG sind Teil einer Masterarbeit. ' +
+              '<li> <b> 19.01. </b> Paul wird vermutlich darauf fokusiert arbeiten. Julian R. wird Elisabets Position als PhD übernehmen, Treffen mit Paul & Julian geplant. </li> '
             },
             {
               "name": "Luftzirkulationsgerät  (Dankl+partner)",
               "value": 7.5,
               "type": "red",
               "level": "purple",
-              "comment": 'Anfrage ausgeschickt. ' +
-              '<li> <b> 09.01. </b>  </li> '
-              
+              "comment": 'Anfrage ausgeschickt. ' 
             },
           ]
         }
@@ -104,14 +103,16 @@ const data = {
           "type": "orange",
           "level": "yellow",
           "comment": '- Beispieldaten  verfügbar, eventuell synthetisch weiter ausbauen. <br> - Masterarbeit auf den Daten @TUG. <br> - 14.11. Zusammenlegung von Patientenfluss & Personenampel. '+
-          '<li> <b> 09.01. </b> Datenverfügbarkeit?? </li> '
+          '<li> <b> 09.01. </b> Datenverfügbarkeit?? </li> ' +
+          '<li> <b> 19.01. </b> Dateverfügbarkeit an Konsortiummeeting weiter verfolgen </li> '
         },
         {
           "name": "Steuerung & Interaktion (BHS)",
           "value": 7.5,
           "type": "orange",
           "level": "yellow",
-          "comment": 'unstrukturierte log files available, Strukturierung derzeit bei BHS in Arbeit. <br> - logfile STrukturierung komplex, Konsortium wartet. '
+          "comment": 'unstrukturierte log files available, Strukturierung derzeit bei BHS in Arbeit. <br> - logfile STrukturierung komplex, Konsortium wartet. ' +
+          '<li> <b> 19.01. </b> Daten wurden aus den log files extrahiert und in strukturierte Datenbank überführt, Paul & Carol arbeiten daran diese Daten in ein Zeitreihe zu verwandeln. Konkrete Aufgabenstellung noch ausständig. </li> '
         }
       ]
     },
